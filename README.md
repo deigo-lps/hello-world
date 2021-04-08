@@ -1,2 +1,2 @@
 # hello-world
-Atividade 1, eccjr
+Atividades PS 2021 eccjr
