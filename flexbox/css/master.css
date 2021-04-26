@@ -103,6 +103,7 @@ a:hover{opacity: 1;}
   margin:0 80px;
 }
 .increase_muscle img{
+  object-fit: cover;
   width: 600px;
 }
 .increase_muscle .texto{
