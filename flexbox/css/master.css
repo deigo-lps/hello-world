@@ -48,6 +48,12 @@ a:hover{opacity: 1;}
   flex-direction: row;
   width: 100%;
 }
+.hero form div{
+  width: 50%;
+}
+.hero form #form__header{
+  width: 100%;
+}
 .hero form div h2{
   font-size: 25px;
 }
@@ -60,9 +66,10 @@ a:hover{opacity: 1;}
 .hero form input:nth-child(1){
   margin-bottom: 10px;
 }
+
 .hero form div button{
-  width:255px;
-  padding:5px;
+  width:97%;
+  padding:10px;
   border:none;
   border-radius: 3px;
   background-color: black;
@@ -90,6 +97,13 @@ a:hover{opacity: 1;}
     padding:20px;
     height: 300px;
     width: 300px;
+    justify-content: center;
+  }
+  .hero form input,button{
+    padding:15px;
+  }
+  .hero form div{
+    width: 100%;
   }
   .hero #header{
     text-align: center;
