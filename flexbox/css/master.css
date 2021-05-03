@@ -10,7 +10,7 @@ a:hover{opacity: 1;}
   flex-direction: column;
   background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/banner.jpg);
   background-size: cover;
-  height: 100vh;
+  height: 700px;
   color:#fff;
 }
 .hero #header{
@@ -32,46 +32,40 @@ a:hover{opacity: 1;}
   text-align: center;
   font-size: 3rem;
 }
-.hero form{
+.hero .get_started h2{
+  font-size: 30px;
+}
+.hero .get_started{
   background-color: #ce0a00;
   margin-left:4.5%;
   display: flex;
   flex-wrap:wrap;
   align-items: center;
-  height: 400px;
+  height: 300px;
   width: 45%;
   padding:50px 30px;
   border: 1px solid #e68580;
 }
-.hero form .inputs{
+.hero .get_started form{
   display: flex;
-  flex-direction: row;
   width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
 }
-.hero form div{
-  width: 50%;
-}
-.hero form #form__header{
-  width: 100%;
-}
-.hero form div h2{
-  font-size: 25px;
-}
-.hero form input{
+.hero .get_started form input{
   padding: 10px;
   border:none;
   border-radius: 3px;
-  width: 97%;
+  width: 48.7%;
+  margin:7px 0;
 }
-.hero form input:nth-child(1){
-  margin-bottom: 10px;
-}
-
-.hero form div button{
-  width:97%;
-  padding:10px;
+.hero .get_started form button{
+  padding: 10px;
   border:none;
   border-radius: 3px;
+  width: 48.7%;
+  margin-top:7px;
   background-color: black;
   color:#fff;
   cursor: pointer;
@@ -79,7 +73,7 @@ a:hover{opacity: 1;}
 .hero #check{
   margin-left:4.5%;
   margin-top: 15px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   font-size: 20px;
 }
 .hero #check i{
@@ -93,22 +87,26 @@ a:hover{opacity: 1;}
   .hero #header{
     flex-direction: column;
   }
-  .hero form{
-    padding:20px;
-    height: 300px;
-    width: 300px;
-    justify-content: center;
-  }
-  .hero form input,button{
-    padding:15px;
-  }
-  .hero form div{
-    width: 100%;
-  }
   .hero #header{
     text-align: center;
   }
+  .hero .get_started{
+    padding:20px;
+    height: 400px;
+    width: 300px;
+    justify-content: center;
+  }
+  .hero .get_started form{
+    flex-direction: column;
+  }
+  .hero .get_started form input,button{
+    width: 100%;
+  }
+  .hero .get_started form button{
+    width: 100%;
+  }
 }
+
 /* INCREASE MUSCLE */
 .increase_muscle{
   display: flex;
