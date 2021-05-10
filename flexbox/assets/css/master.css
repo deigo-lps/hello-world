@@ -173,7 +173,7 @@ a:hover{opacity: 1;}
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 450px;
+  height: 30rem;
 }
 .videos h2{
   color:#ce0a00;
@@ -183,19 +183,27 @@ a:hover{opacity: 1;}
 .videos ul{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+.videos ul li{
+  width:50%;
+  overflow: hidden;
+}
+.videos ul li:nth-child(2){
+  margin:0 40px;
 }
 .videos ul li p{
   color:#fff;
   font-size: 18px;
-  margin:0 10px;
-  /* margin-bottom:30px; */
 }
 .videos ul li img{
-  margin:0 10px;
+  object-fit: cover;
   height:250px;
-  width:350px;
+  width:100%;
 }
-@media(max-width: 1120px){
+@media(max-width: 700px){
   .videos{
     height: 900px;
   }
