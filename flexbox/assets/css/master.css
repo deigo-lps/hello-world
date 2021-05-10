@@ -19,9 +19,24 @@ a:hover{opacity: 1;}
   margin:1% 4.5%;
   font-size: 25px;
 }
-.hero #header #peso{
+.hero #header #navbar{
+  display: flex;
+  flex-direction: row;
+}
+.hero #header #navbar li{
+  margin:0px 5px;
+}
+.hero #header #navbar li:last-child{
+  margin-right: 0;
+}
+.hero #header #navbar li a{
   font-weight: 300;
   font-size:20px;
+  color:#fff;
+  text-transform: uppercase;
+}
+.hero #header #navbar li a i{
+  color:#ce0a00;
 }
 .hero h1{
   display:flex;
@@ -95,6 +110,9 @@ a:hover{opacity: 1;}
     height: 400px;
     width: 300px;
     justify-content: center;
+  }
+  .hero #header #navbar li a{
+    font-size: 18px;
   }
   .hero .get_started form{
     flex-direction: column;
