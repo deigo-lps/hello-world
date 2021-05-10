@@ -4,7 +4,10 @@ const phone=document.getElementById("input_number");
 const email=document.getElementById("input_email");
 const zip=document.getElementById("input_zip");
 
-const regPhone=/^[(][0-9]{2}[)]([0-9]{4}|[0-9]{5})[-][0-9]{4}$/;
+VMasker(phone).maskPattern("(99) 99999-9999");
+VMasker(zip).maskPattern("99.999-999");
+
+const regPhone=/^[(][0-9]{2}[)] [0-9]{5}[-]([0-9]{4}|[0-9]{3})$/;
 const regEmail=/^([a-z0-9.-_]+)([@])([a-z]+)([.])([a-z]+)$/;
 const regZip=/^[0-9]{2}[.][0-9]{3}[-][0-9]{3}$/;
 form.addEventListener("submit",function(){
